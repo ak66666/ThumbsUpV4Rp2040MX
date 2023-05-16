@@ -1746,17 +1746,6 @@ Wire Wire Line
 Connection ~ 6650 5950
 Wire Wire Line
 	6650 5950 7050 5950
-$Comp
-L power:GND #PWR0117
-U 1 1 63E16CE5
-P 3850 10400
-F 0 "#PWR0117" H 3850 10150 50  0001 C CNN
-F 1 "GND" H 3855 10227 50  0000 C CNN
-F 2 "" H 3850 10400 50  0001 C CNN
-F 3 "" H 3850 10400 50  0001 C CNN
-	1    3850 10400
-	1    0    0    -1  
-$EndComp
 Text GLabel 2750 6200 1    50   Input ~ 0
 QSPI_SD1
 Text GLabel 2850 6200 1    50   Input ~ 0
@@ -1768,80 +1757,16 @@ QSPI_SCLK
 Text GLabel 2950 6200 1    50   Input ~ 0
 QSPI_SD0
 $Comp
-L TL1016AAF220QG:TL1016AAF220QG RUN1
-U 1 1 639D06EF
-P 4050 9600
-F 0 "RUN1" V 4450 9850 50  0000 L CNN
-F 1 "TL1016AAF220QG" V 4600 9850 50  0000 L CNN
-F 2 "TL1016AAF220QG:TL1016AAF220QG" H 4700 9700 50  0001 L CNN
-F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 4700 9600 50  0001 L CNN
-F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 4700 9500 50  0001 L CNN "Description"
-F 5 "1.35" H 4700 9400 50  0001 L CNN "Height"
-F 6 "E-Switch" H 4700 9300 50  0001 L CNN "Manufacturer_Name"
-F 7 "TL1016AAF220QG" H 4700 9200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "612-TL1016AAF220QG" H 4700 9100 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 4700 9000 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 4700 8900 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 4700 8800 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 4700 8700 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 4700 8600 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    4050 9600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4050 9600 4150 9600
-Wire Wire Line
-	4200 9600 4200 10400
-Wire Wire Line
-	3750 10400 3850 10400
-$Comp
-L TL1016AAF220QG:TL1016AAF220QG BOOTSEL1
-U 1 1 63B7CD0C
-P 1950 3300
-F 0 "BOOTSEL1" V 1800 3050 50  0000 L CNN
-F 1 "TL1016AAF220QG" V 1900 2950 50  0000 L CNN
-F 2 "TL1016AAF220QG:TL1016AAF220QG" H 2600 3400 50  0001 L CNN
-F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 2600 3300 50  0001 L CNN
-F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 2600 3200 50  0001 L CNN "Description"
-F 5 "1.35" H 2600 3100 50  0001 L CNN "Height"
-F 6 "E-Switch" H 2600 3000 50  0001 L CNN "Manufacturer_Name"
-F 7 "TL1016AAF220QG" H 2600 2900 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "612-TL1016AAF220QG" H 2600 2800 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 2600 2700 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 2600 2600 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 2600 2500 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 2600 2400 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 2600 2300 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    1950 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1950 3300 2150 3300
-Wire Wire Line
-	1950 4100 2150 4100
-Wire Wire Line
-	2150 4100 2150 3300
-Connection ~ 2150 3300
-Wire Wire Line
-	2150 3300 2600 3300
-Wire Wire Line
-	1850 3300 1650 3300
-Wire Wire Line
-	1650 3300 1650 4100
-Wire Wire Line
-	1650 4100 1850 4100
-$Comp
 L power:GND #PWR0120
 U 1 1 63D2EFAD
-P 1650 4100
-F 0 "#PWR0120" H 1650 3850 50  0001 C CNN
-F 1 "GND" H 1655 3927 50  0000 C CNN
-F 2 "" H 1650 4100 50  0001 C CNN
-F 3 "" H 1650 4100 50  0001 C CNN
-	1    1650 4100
+P 1200 4150
+F 0 "#PWR0120" H 1200 3900 50  0001 C CNN
+F 1 "GND" H 1205 3977 50  0000 C CNN
+F 2 "" H 1200 4150 50  0001 C CNN
+F 3 "" H 1200 4150 50  0001 C CNN
+	1    1200 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 1650 4100
 Wire Wire Line
 	1750 9650 1750 8000
 $Comp
@@ -1946,10 +1871,6 @@ Connection ~ 2350 1900
 Wire Wire Line
 	2350 2000 2450 2000
 Connection ~ 2350 2000
-Wire Wire Line
-	3750 10400 3750 9600
-Wire Wire Line
-	3750 9600 3950 9600
 Wire Wire Line
 	4300 14400 4300 14150
 Wire Wire Line
@@ -2922,89 +2843,16 @@ Connection ~ 16950 5900
 Wire Wire Line
 	16950 5900 17350 5900
 $Comp
-L power:GND #PWR0143
-U 1 1 63C338F1
-P 14150 10500
-F 0 "#PWR0143" H 14150 10250 50  0001 C CNN
-F 1 "GND" H 14155 10327 50  0000 C CNN
-F 2 "" H 14150 10500 50  0001 C CNN
-F 3 "" H 14150 10500 50  0001 C CNN
-	1    14150 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L TL1016AAF220QG:TL1016AAF220QG RUN2
-U 1 1 63C33927
-P 14350 9700
-F 0 "RUN2" V 14750 9950 50  0000 L CNN
-F 1 "TL1016AAF220QG" V 14900 9950 50  0000 L CNN
-F 2 "TL1016AAF220QG:TL1016AAF220QG" H 15000 9800 50  0001 L CNN
-F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 15000 9700 50  0001 L CNN
-F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 15000 9600 50  0001 L CNN "Description"
-F 5 "1.35" H 15000 9500 50  0001 L CNN "Height"
-F 6 "E-Switch" H 15000 9400 50  0001 L CNN "Manufacturer_Name"
-F 7 "TL1016AAF220QG" H 15000 9300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "612-TL1016AAF220QG" H 15000 9200 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 15000 9100 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 15000 9000 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 15000 8900 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 15000 8800 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 15000 8700 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    14350 9700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14350 9700 14400 9700
-Wire Wire Line
-	14500 9700 14500 10500
-$Comp
-L TL1016AAF220QG:TL1016AAF220QG BOOTSEL2
-U 1 1 63C3393B
-P 12250 3250
-F 0 "BOOTSEL2" V 12100 3000 50  0000 L CNN
-F 1 "TL1016AAF220QG" V 12200 2900 50  0000 L CNN
-F 2 "TL1016AAF220QG:TL1016AAF220QG" H 12900 3350 50  0001 L CNN
-F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 12900 3250 50  0001 L CNN
-F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 12900 3150 50  0001 L CNN "Description"
-F 5 "1.35" H 12900 3050 50  0001 L CNN "Height"
-F 6 "E-Switch" H 12900 2950 50  0001 L CNN "Manufacturer_Name"
-F 7 "TL1016AAF220QG" H 12900 2850 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "612-TL1016AAF220QG" H 12900 2750 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 12900 2650 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 12900 2550 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 12900 2450 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 12900 2350 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 12900 2250 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    12250 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12250 3250 12450 3250
-Wire Wire Line
-	12250 4050 12450 4050
-Wire Wire Line
-	12450 4050 12450 3250
-Connection ~ 12450 3250
-Wire Wire Line
-	12450 3250 12900 3250
-Wire Wire Line
-	12150 3250 11950 3250
-Wire Wire Line
-	11950 3250 11950 4050
-Wire Wire Line
-	11950 4050 12150 4050
-$Comp
 L power:GND #PWR0144
 U 1 1 63C33949
-P 11950 4050
-F 0 "#PWR0144" H 11950 3800 50  0001 C CNN
-F 1 "GND" H 11955 3877 50  0000 C CNN
-F 2 "" H 11950 4050 50  0001 C CNN
-F 3 "" H 11950 4050 50  0001 C CNN
-	1    11950 4050
+P 11400 4050
+F 0 "#PWR0144" H 11400 3800 50  0001 C CNN
+F 1 "GND" H 11405 3877 50  0000 C CNN
+F 2 "" H 11400 4050 50  0001 C CNN
+F 3 "" H 11400 4050 50  0001 C CNN
+	1    11400 4050
 	1    0    0    -1  
 $EndComp
-Connection ~ 11950 4050
 $Comp
 L Device:R_Small R11
 U 1 1 63C33975
@@ -3596,36 +3444,6 @@ Text GLabel 12550 8050 0    50   Input ~ 0
 K_J
 Text GLabel 12550 7750 0    50   Input ~ 0
 K_U
-Wire Wire Line
-	14050 10500 14150 10500
-Wire Wire Line
-	14050 9700 14250 9700
-Wire Wire Line
-	14050 10500 14050 9700
-Wire Wire Line
-	3650 9550 4150 9550
-Wire Wire Line
-	4150 9550 4150 9600
-Connection ~ 4150 9600
-Wire Wire Line
-	4150 9600 4200 9600
-Connection ~ 3850 10400
-Wire Wire Line
-	3850 10400 3950 10400
-Wire Wire Line
-	4050 10400 4200 10400
-Wire Wire Line
-	13950 9650 14400 9650
-Wire Wire Line
-	14400 9650 14400 9700
-Connection ~ 14400 9700
-Wire Wire Line
-	14400 9700 14500 9700
-Connection ~ 14150 10500
-Wire Wire Line
-	14150 10500 14250 10500
-Wire Wire Line
-	14350 10500 14500 10500
 Text GLabel 4250 7200 2    50   Input ~ 0
 K_LSFT
 Text GLabel 4250 7300 2    50   Input ~ 0
@@ -4272,4 +4090,196 @@ NoConn ~ 18550 10350
 NoConn ~ 18650 10350
 NoConn ~ 18750 10350
 NoConn ~ 18850 10350
+$Comp
+L BUTT-4:BUTT-4 BOOTSEL1
+U 1 1 64690B3B
+P 1300 3700
+F 0 "BOOTSEL1" H 1750 3965 50  0000 C CNN
+F 1 "BUTT-4" H 1750 3874 50  0000 C CNN
+F 2 "BUTT4" H 2050 3800 50  0001 L CNN
+F 3 "http://site.gravitech.us/Components/BUTT-4/BUTT-4_datasheet.pdf" H 2050 3700 50  0001 L CNN
+F 4 "Tactile Switches MINI PUSH BUTTON SWITCH 4-PIN QTY. 4" H 2050 3600 50  0001 L CNN "Description"
+F 5 "9.5" H 2050 3500 50  0001 L CNN "Height"
+F 6 "Gravitech" H 2050 3400 50  0001 L CNN "Manufacturer_Name"
+F 7 "BUTT-4" H 2050 3300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "992-BUTT-4" H 2050 3200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Gravitech/BUTT-4?qs=Vxac6xGyzPm51iLpy8GNew%3D%3D" H 2050 3100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2050 3000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2050 2900 50  0001 L CNN "Arrow Price/Stock"
+	1    1300 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3300 1300 3300
+Wire Wire Line
+	1300 3300 1300 3700
+Wire Wire Line
+	1300 3800 1200 3800
+$Comp
+L BUTT-4:BUTT-4 BOOTSEL2
+U 1 1 648E56F0
+P 11600 3700
+F 0 "BOOTSEL2" H 12050 3965 50  0000 C CNN
+F 1 "BUTT-4" H 12050 3874 50  0000 C CNN
+F 2 "BUTT4" H 12350 3800 50  0001 L CNN
+F 3 "http://site.gravitech.us/Components/BUTT-4/BUTT-4_datasheet.pdf" H 12350 3700 50  0001 L CNN
+F 4 "Tactile Switches MINI PUSH BUTTON SWITCH 4-PIN QTY. 4" H 12350 3600 50  0001 L CNN "Description"
+F 5 "9.5" H 12350 3500 50  0001 L CNN "Height"
+F 6 "Gravitech" H 12350 3400 50  0001 L CNN "Manufacturer_Name"
+F 7 "BUTT-4" H 12350 3300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "992-BUTT-4" H 12350 3200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Gravitech/BUTT-4?qs=Vxac6xGyzPm51iLpy8GNew%3D%3D" H 12350 3100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 12350 3000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 12350 2900 50  0001 L CNN "Arrow Price/Stock"
+	1    11600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 3800 11400 4050
+$Comp
+L BUTT-4:BUTT-4 RUN2
+U 1 1 64A72F18
+P 13950 9650
+F 0 "RUN2" H 14400 9915 50  0000 C CNN
+F 1 "BUTT-4" H 14400 9824 50  0000 C CNN
+F 2 "BUTT4" H 14700 9750 50  0001 L CNN
+F 3 "http://site.gravitech.us/Components/BUTT-4/BUTT-4_datasheet.pdf" H 14700 9650 50  0001 L CNN
+F 4 "Tactile Switches MINI PUSH BUTTON SWITCH 4-PIN QTY. 4" H 14700 9550 50  0001 L CNN "Description"
+F 5 "9.5" H 14700 9450 50  0001 L CNN "Height"
+F 6 "Gravitech" H 14700 9350 50  0001 L CNN "Manufacturer_Name"
+F 7 "BUTT-4" H 14700 9250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "992-BUTT-4" H 14700 9150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Gravitech/BUTT-4?qs=Vxac6xGyzPm51iLpy8GNew%3D%3D" H 14700 9050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 14700 8950 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 14700 8850 50  0001 L CNN "Arrow Price/Stock"
+	1    13950 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 64A76142
+P 13850 10050
+F 0 "#PWR0117" H 13850 9800 50  0001 C CNN
+F 1 "GND" H 13855 9877 50  0000 C CNN
+F 2 "" H 13850 10050 50  0001 C CNN
+F 3 "" H 13850 10050 50  0001 C CNN
+	1    13850 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 9750 13850 9750
+$Comp
+L BUTT-4:BUTT-4 RUN1
+U 1 1 64B6778E
+P 3650 9550
+F 0 "RUN1" H 4100 9815 50  0000 C CNN
+F 1 "BUTT-4" H 4100 9724 50  0000 C CNN
+F 2 "BUTT4" H 4400 9650 50  0001 L CNN
+F 3 "http://site.gravitech.us/Components/BUTT-4/BUTT-4_datasheet.pdf" H 4400 9550 50  0001 L CNN
+F 4 "Tactile Switches MINI PUSH BUTTON SWITCH 4-PIN QTY. 4" H 4400 9450 50  0001 L CNN "Description"
+F 5 "9.5" H 4400 9350 50  0001 L CNN "Height"
+F 6 "Gravitech" H 4400 9250 50  0001 L CNN "Manufacturer_Name"
+F 7 "BUTT-4" H 4400 9150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "992-BUTT-4" H 4400 9050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Gravitech/BUTT-4?qs=Vxac6xGyzPm51iLpy8GNew%3D%3D" H 4400 8950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4400 8850 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4400 8750 50  0001 L CNN "Arrow Price/Stock"
+	1    3650 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 64B68D72
+P 3600 10000
+F 0 "#PWR0143" H 3600 9750 50  0001 C CNN
+F 1 "GND" H 3605 9827 50  0000 C CNN
+F 2 "" H 3600 10000 50  0001 C CNN
+F 3 "" H 3600 10000 50  0001 C CNN
+	1    3600 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 9650 3600 9650
+Wire Wire Line
+	3650 9750 3450 9750
+Wire Wire Line
+	3450 9750 3450 9550
+Wire Wire Line
+	3450 9550 3650 9550
+Connection ~ 3650 9550
+Wire Wire Line
+	3600 9650 3600 9950
+Wire Wire Line
+	4550 9550 4650 9550
+Wire Wire Line
+	4650 9550 4650 9650
+Wire Wire Line
+	4650 9950 3600 9950
+Connection ~ 3600 9950
+Wire Wire Line
+	3600 9950 3600 10000
+Wire Wire Line
+	4550 9650 4650 9650
+Connection ~ 4650 9650
+Wire Wire Line
+	4650 9650 4650 9950
+Wire Wire Line
+	1200 3800 1200 4100
+Wire Wire Line
+	1300 3900 1050 3900
+Wire Wire Line
+	1050 3900 1050 3700
+Wire Wire Line
+	1050 3700 1300 3700
+Connection ~ 1300 3700
+Wire Wire Line
+	2200 3700 2200 3800
+Wire Wire Line
+	2200 4100 1200 4100
+Connection ~ 2200 3800
+Wire Wire Line
+	2200 3800 2200 4100
+Connection ~ 1200 4100
+Wire Wire Line
+	1200 4100 1200 4150
+Wire Wire Line
+	11600 3250 11600 3700
+Wire Wire Line
+	11600 3250 12900 3250
+Wire Wire Line
+	11600 3800 11400 3800
+Wire Wire Line
+	12500 3700 12500 3800
+Wire Wire Line
+	12500 4050 11400 4050
+Connection ~ 12500 3800
+Wire Wire Line
+	12500 3800 12500 4050
+Connection ~ 11400 4050
+Wire Wire Line
+	11600 3900 11500 3900
+Wire Wire Line
+	11500 3900 11500 3700
+Wire Wire Line
+	11500 3700 11600 3700
+Connection ~ 11600 3700
+Wire Wire Line
+	13950 9850 13800 9850
+Wire Wire Line
+	13800 9850 13800 9650
+Wire Wire Line
+	13800 9650 13950 9650
+Connection ~ 13950 9650
+Wire Wire Line
+	13850 9750 13850 10000
+Wire Wire Line
+	14850 9650 14850 9750
+Wire Wire Line
+	14850 10000 13850 10000
+Connection ~ 14850 9750
+Wire Wire Line
+	14850 9750 14850 10000
+Connection ~ 13850 10000
+Wire Wire Line
+	13850 10000 13850 10050
 $EndSCHEMATC

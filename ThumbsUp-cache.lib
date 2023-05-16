@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# BUTT-4_BUTT-4
+#
+DEF BUTT-4_BUTT-4 S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "BUTT-4_BUTT-4" 750 200 50 H V L CNN
+F2 "BUTT4" 750 100 50 H I L CNN
+F3 "http://site.gravitech.us/Components/BUTT-4/BUTT-4_datasheet.pdf" 750 0 50 H I L CNN
+F4 "Tactile Switches MINI PUSH BUTTON SWITCH 4-PIN QTY. 4" 750 -100 50 H I L CNN "Description"
+F5 "9.5" 750 -200 50 H I L CNN "Height"
+F6 "Gravitech" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BUTT-4" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "992-BUTT-4" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Gravitech/BUTT-4?qs=Vxac6xGyzPm51iLpy8GNew%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X A1 A1 0 0 200 R 50 50 0 0 P
+X B1 B1 0 -100 200 R 50 50 0 0 P
+X C1 C1 0 -200 200 R 50 50 0 0 P
+X D1 D1 900 0 200 L 50 50 0 0 P
+X G1 G1 900 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x04_Female
 #
 DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
@@ -314,28 +337,6 @@ P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 X 1 1 0 0 200 R 50 50 0 0 P
 X 2 2 0 -100 200 R 50 50 0 0 P
 X 3 3 800 0 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# TL1016AAF220QG_TL1016AAF220QG
-#
-DEF TL1016AAF220QG_TL1016AAF220QG S 0 30 Y Y 1 F N
-F0 "S" 650 300 50 H V L CNN
-F1 "TL1016AAF220QG_TL1016AAF220QG" 650 200 50 H V L CNN
-F2 "TL1016AAF220QG" 650 100 50 H I L CNN
-F3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" 650 0 50 H I L CNN
-F4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" 650 -100 50 H I L CNN "Description"
-F5 "1.35" 650 -200 50 H I L CNN "Height"
-F6 "E-Switch" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "TL1016AAF220QG" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "612-TL1016AAF220QG" 650 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 P
-X 2 2 800 0 200 L 50 50 0 0 P
-X 3 3 0 -100 200 R 50 50 0 0 P
-X 4 4 800 -100 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
